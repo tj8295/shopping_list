@@ -1,1 +1,8 @@
 Basic shopping list webapp created with jquery, and javascript.
+
+function () {
+
+$.('footer').fadeOut();
+
+}
+new change in master
