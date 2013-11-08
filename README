@@ -5,4 +5,4 @@ function () {
 $.('footer').fadeOut();
 
 }
-new change in master
+new change in maste is a totally differnet change
