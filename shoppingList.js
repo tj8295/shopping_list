@@ -5,8 +5,14 @@ $(document).ready(function() {
     $('.list-rows').append("<div class=\"checkbox\"> " +
             "<label> " +
     "<input type=\"checkbox\" value=\"\"> " +
-    userInput +
+    userInput + " </input>" +
   "</label>" +
 "</div>");
+    });
+
+    $(document).on('click', '.checkbox', function(){
+        $(this).toggleClass("completed-item");
+        console.log("div clicked");
+
     });
 });
