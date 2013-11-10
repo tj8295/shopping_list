@@ -19,21 +19,28 @@
                 <h1 class="text-center">The Shopping List</h1>
                 <p class="text-center lead">Add items to the shopping list below.</p>
             </header>
+        </div>
+        <div class="row">
             <section id="form-shopping-items">
-
                     <form role="form" class="form-inline form2">
                         <div class="form-group col-lg-5 form2">
                             <input type="text" class="form-control input-lg list-input" placeholder="List item">
                         </div>
                     <button type="button" class="btn btn-primary btn-lg add-item-button">Add item</button>
                     </form>
-                    <div class="well well-lg list-well col-lg-7 list-rows">
+
+                    <div class="well well-lg list-well col-lg-7">
+                        <div class="list-rows"></div>
                     </div>
-
-
             </section>
         </div>
-    </div>
+        <div class="row">
+            <div>
+                <button type="button" class="btn btn-primary btn-lg select-all-button">Select all</button>
+                <button type="button" class="btn btn-primary btn-lg clear-checked-button">Clear selected</button>
+            </div>
+        </div>
+    </div> <!-- end container -->
 
 </body>
 
